@@ -1,0 +1,719 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 54px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    border-width: 0 0 0.001px;
+    border-style: solid;
+    border-color: #dbdbdb;
+    background-color: #FFFFFF;
+    
+}
+
+.header_section {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.header_contain {
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.header_logo {
+    width: 103px;
+    height: 29px;
+    margin-top: 8px;
+}
+
+.header_contain1 {
+    display: flex;
+    width: 32%;
+    justify-content: flex-end;
+}
+
+.header_input-pesquisar {
+    width: 190px;
+    height: 20px;
+    padding: 2px 10px;
+    border-width: 0.01px;
+    border-style: solid;
+    border-color: #dbdbdb;
+    background-color: #fafafa;
+    
+}
+
+.header_input-pesquisar::placeholder {
+    text-align: center;
+    color: #8E8E8E;
+}
+
+.header_input-pesquisar:focus {
+    outline: 0;
+    border-width: 0.01px;
+    border-style: solid;
+    border-color: #dbdbdb;
+    
+}
+
+.header_contain2 {
+    display: inline-flex;
+    align-items: center;
+}
+
+.header_svg-icon {
+    margin: 0 9px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.header_img-icon--rotate {
+    transform: rotate(-40deg);
+}
+
+.header_contain3 {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    margin: 0 7px;
+    padding: 2px;
+    cursor: pointer;
+    background: url(imagens/mae_vo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 50%;
+}
+
+.espaco {
+    width: 100%;
+    height: 54px;
+}
+
+main {
+    text-align: center;
+    justify-content: center;
+    background-color: #FAFAFA;
+}
+
+.main_contain {
+    display: inline-grid;
+    grid-template-columns: 65% 35%;
+    width: 70%;
+    margin-top: 30px;
+    
+}
+
+.main_contain4 {
+    width: 35%;
+    height: 700px;
+    background-color: red;
+    display: inline-block;
+}
+
+.main_contain1 {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main_content6 {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 118px;
+    border: 0.001px solid #dbdbdb;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    
+}
+
+.main_content6 img {
+    border-radius: 50%;
+    padding: 2px;
+    background-color: #FFFFFF;
+    width: 56px;
+    height: 56px;
+    
+}
+
+.main_content8 {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 7px;
+    width: 90px;
+}
+
+.main_content8 p {
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #262626;
+}
+
+.main_content7 {
+    display: inline-flex;
+    
+}
+
+.main_gradient-contain1 {
+    display: inline-flex;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.main_contain3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.main_content11 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main_content9 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 4px 4px 0 0;
+    border: 0.001px solid;
+    border-color: #dbdbdb #dbdbdb #efefef #dbdbdb;
+    margin: 24px 0 0;
+}
+
+.main_content9-imgtext {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_content9-1 {
+    display: inline-flex;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.main_content9-pf {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.main_content9-lapis {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.main_content9-pedagogica {
+    display: inline-flex;
+    font-weight: 600;
+    color: #262626;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    
+}
+
+.main_content9-pedagogica:hover {
+    text-decoration: underline;
+}
+
+.main_content9-svg1 {
+    cursor: pointer;
+    padding: 8px 10px;
+}
+
+.main_content10 {
+    display: flex;
+    flex-direction: column;
+    border: solid #dbdbdb;
+    border-width: 0 0.001px 0.001px 0.001px;
+    background-color: #FFFFFF;
+}
+
+.main_content10-img-desenho {
+    display: flex;
+}
+
+.main_content10-desenho {
+    width: 100%;
+}
+
+.main_content10-svgs1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12px;
+    margin-top: 3px;
+}
+
+.main_content10-svgs1 svg {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.main_content10-4svgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0.4em;
+}
+
+.main_content10-3svgs {
+    display: flex;
+}
+
+.main_content10-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.main_content10-social p {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    color: #262626;
+}
+
+.main_content10-social strong {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.main_content10-social strong:hover {
+    text-decoration: underline;
+    
+}
+
+.main_content10-img-mulher {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 3px;
+    margin-right: 7px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: url(imagens/mae_vo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 50%;
+}
+
+.main_content10-info {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5em;
+}
+
+.main_content10-adicional {
+    display: flex;
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+.main_content10-adicional .main_content10-adicional-comentarios {
+    color: #8E8E8E;
+    cursor: pointer;
+}
+
+.main_content10-adicional .main_content10-adicional-horas {
+    color: #8E8E8E;
+    font-size: 10.4px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.main_content10-balao {
+    margin: 0 5px;
+}
+
+.main_content10-st {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border: solid #efefef;
+    border-width: 0.001px 0 0;
+
+}
+
+.main_content10-st p {
+    color: #0095F6;
+    font-family: sans-serif;
+    font-size: 13.1px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.main_content10-svgarea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_content10-area {
+    width: 35vw;
+    height: 20px;
+    margin-left: 15px;
+    padding: 4px;
+    border: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    resize: none;
+    color: #262626;
+    font-size: 14px;
+    
+
+}
+
+.main_content10-area::placeholder {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.main_content10-area:focus {
+    outline: 0;
+    border: none;
+
+}
+
+.main_contain2 {
+    display: flex;
+    align-items: flex-start;
+    width: 22%;
+    flex-direction: column;
+    justify-self: flex-end;
+    position: fixed;
+    background-color: #FAFAFA;
+    
+}
+
+.main_content1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.main_content1 div {
+    display: flex;
+}
+
+.main_maior-parte {
+
+}
+
+.main_mae-vo {
+    border-radius: 50%;
+    width: 57px;
+    height: 57px;
+}
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 70px 0 20px;
+    
+}
+
+.main_content p {
+    font-size: 14px;
+    color: #8E8E8E;
+}
+
+.main_content1-mudar {
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #0095F6;
+}
+
+.main_content1-mudar p {
+    cursor: pointer;
+}
+
+.main_contain2 p {
+    display: inline-flex;
+    
+}
+
+.main_content2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 25px 0 12px;
+}
+
+.main_content2 p {
+    display: inline-flex;
+    
+}
+
+.main_content2 div {
+    display: inline-flex;
+
+}
+
+.main_content2-sugestoes {
+    font-size: 15px;
+    font-weight: 600;
+    color: #8E8E8E;
+}
+
+.main_content2-tudo {
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main_content2-tudo p {
+    cursor: pointer;
+}
+
+.main_content3 {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main_content3 img {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+}
+
+.main_content3 div {
+    display: flex;
+    
+}
+
+.main_content5 {
+    justify-content: space-between;
+    margin: 6px 0;
+}
+
+.main_content4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 0 0 15px;
+}
+
+.main_content4 p {
+    text-align: start;
+    font-size: 12px;
+    color: #8E8E8E;
+}
+
+.main_content4 h4:hover {
+    text-decoration: underline;
+}
+
+.main_contain2 h4 {
+    font-size: 13.4px;
+    font-family: sans-serif;
+    color: #262626;
+    cursor: pointer;
+}
+
+.main_content5-seguir {
+    align-items: center;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #0095F6;
+    
+}
+
+.main_content5-seguir p {
+    cursor: pointer;
+    
+}
+
+.footer_contain {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer_contain div {
+    display: inline-flex;
+    
+}
+
+.footer_contain ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 27px 0 0;
+}
+
+.footer_contain li, .footer_contain p {
+    font-size: 13px;
+    color: #C7C7C7;
+    margin-left: 20px;
+    
+}
+
+.footer_contain li {
+    cursor: pointer;
+}
+
+.footer_contain p {
+    margin: 17px 0 0;
+}
+
+.footer_content {
+    list-style: none;
+    margin: 0px;
+}
+
+.footer_content .footer_content-item {
+    margin: 0px;
+}
+
+.footer_contain1 {
+    display: flex;
+    width: 100%;
+}
+
+/* Mobile */
+@media screen 
+     and (max-device-width: 1080px) {
+        .header_section {
+            width: 100% !important;
+            padding: 0 !important;
+        }
+
+        .main_contain2 {
+            display: none !important;
+        }
+
+        .main_contain {
+            display: inline-flex !important;
+            
+        }
+
+        .header_input-pesquisar {
+            display: none;
+        }
+
+        .main_content6 {
+            padding: 15px 0;
+            justify-content: space-around;
+        }
+}
+
+/* PC */
+@media screen
+    and (min-width: 1385px) {
+        .main_content6 {
+            justify-content: space-around;
+        }
+
+        .main_contain2 {
+            width: 20vw;
+        }
+}
+
+@media screen
+    and (max-width: 1335px) {
+        .main_content1 .main_maior-parte {
+            width: 70%;
+        }
+}
+
+@media screen 
+    and (max-width: 1110px) {
+        .main_contain2 {
+            width: 25%;
+            right: 50px;
+        }
+}
+
+@media screen 
+     and (max-width: 1080px) {
+        .header_section {
+            width: 100% !important;
+            padding: 0 20px !important;
+        }
+}
+
+@media screen 
+    and (max-width: 1180px) {
+        .main_contain {
+            display: inline-grid;
+            grid-template-columns: 70% 35%;
+            width: 81%;
+        }
+}
+
+@media screen
+    and (max-width: 1000px) {
+        .main_contain2 {
+            display: none !important;
+        }
+
+        .main_contain {
+            display: inline-flex;
+            width: 600px;
+        }
+}
+
+@media screen
+    and (max-width: 618px) {
+        .main_contain {
+            display: inline-flex;
+            width: 100%;
+        }
+}
+
+@media screen
+    and (max-width: 595px) {
+        .header_input-pesquisar {
+            display: none;
+        }
+
+        .main_content6 {
+            padding: 15px 0;
+        }
+
+        .main_content6 img {
+            width: 9vw;
+            height: 9vw;
+        }
+}
